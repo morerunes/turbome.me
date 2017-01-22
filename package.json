@@ -1,0 +1,31 @@
+{
+  "name": "turbome",
+  "version": "1.0.0",
+  "description": "Meme website",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morerunes/turbome.me.git"
+  },
+  "keywords": [
+    "website",
+    "hapi"
+  ],
+  "author": "Aaron Echols <morerunes@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/morerunes/turbome.me/issues"
+  },
+  "homepage": "https://github.com/morerunes/turbome.me#readme",
+  "dependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "handlebars": "^4.0.6",
+    "hapi": "^16.1.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
